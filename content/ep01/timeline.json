@@ -1,0 +1,170 @@
+{
+  "voice": "xiaochen",
+  "speed": 1.05,
+  "totalChars": 865,
+  "totalDurationSec": 185.34,
+  "segments": [
+    {
+      "id": "S01",
+      "scene": "hook",
+      "text": "他临摹了一千张脸，张张分毫不差。可当第一千零一张脸站在他面前时，他的笔，落不下去了。",
+      "audio": "audio/S01.wav",
+      "duration": 7.636
+    },
+    {
+      "id": "S02",
+      "scene": "story",
+      "img": 1,
+      "text": "墨镇上有个画像神童，叫沈摹。随便给他一张画，他闭着眼都能临出来。左眉的疤，嘴角的痣，连纸上的霉斑，他都不放过。",
+      "audio": "audio/S02.wav",
+      "duration": 11.097
+    },
+    {
+      "id": "S03",
+      "scene": "story",
+      "img": 1,
+      "text": "镇上的人说，沈摹笔下没有“像”，只有“就是”。",
+      "audio": "audio/S03.wav",
+      "duration": 4.461
+    },
+    {
+      "id": "S04",
+      "scene": "story",
+      "img": 2,
+      "text": "镇东头住着老画像师，姓拙。他的画常被挑毛病：眼睛大了，皱纹没描，比例不对。可找他画像的人，一年比一年多。",
+      "audio": "audio/S04.wav",
+      "duration": 11.358
+    },
+    {
+      "id": "S05",
+      "scene": "story",
+      "img": 3,
+      "text": "这年秋天，县令微服私访，只说了四个字：给我画一张。",
+      "audio": "audio/S05.wav",
+      "duration": 5.145
+    },
+    {
+      "id": "S06",
+      "scene": "story",
+      "img": 4,
+      "text": "沈摹提笔，愣住了。这张脸，他没临过。没有原画对照，没有疤痣参考。他凭着记忆拼了半个时辰，围观的人摇头：不像任何人。",
+      "audio": "audio/S06.wav",
+      "duration": 12.513
+    },
+    {
+      "id": "S07",
+      "scene": "story",
+      "img": 5,
+      "text": "老拙走过来，看了那张脸，问：庄稼人，还是读书人？有人答：赶考的举人。老拙点头落笔。三炷香后，人群炸了。像，太像了，连赶考的风尘气都在纸上。",
+      "audio": "audio/S07.wav",
+      "duration": 16.346
+    },
+    {
+      "id": "S08",
+      "scene": "story",
+      "img": 5,
+      "text": "县令笑了：你不是在临我，你是在画我。",
+      "audio": "audio/S08.wav",
+      "duration": 3.263
+    },
+    {
+      "id": "S09",
+      "scene": "story",
+      "img": 6,
+      "text": "那天夜里，沈摹烧了他临过的一千张脸。",
+      "audio": "audio/S09.wav",
+      "duration": 4.029
+    },
+    {
+      "id": "S10",
+      "scene": "quote",
+      "text": "老拙只说了一句话：你把每一道疤，都当成了脸。",
+      "audio": "audio/S10.wav",
+      "duration": 4.278
+    },
+    {
+      "id": "S11",
+      "scene": "reveal",
+      "text": "这个故事讲的是机器学习里最经典的一个坑：过拟合。",
+      "audio": "audio/S11.wav",
+      "duration": 4.294
+    },
+    {
+      "id": "S12",
+      "scene": "concept-def",
+      "text": "什么叫过拟合？模型在训练数据上表现完美，一换没见过的数据，就露馅了。",
+      "audio": "audio/S12.wav",
+      "duration": 6.336
+    },
+    {
+      "id": "S13",
+      "scene": "concept-noise",
+      "text": "沈摹临摹的那一千张画，就是训练数据。他记住了疤、痣、霉斑，却没记住人脸的规律。",
+      "audio": "audio/S13.wav",
+      "duration": 8.743
+    },
+    {
+      "id": "S14",
+      "scene": "concept-noise",
+      "text": "细节里混着两类东西：规律和噪声。规律是颧骨底下有阴影，换个地方还成立；噪声是纸破了个角，只在一张纸上成立。",
+      "audio": "audio/S14.wav",
+      "duration": 11.52
+    },
+    {
+      "id": "S15",
+      "scene": "concept-noise",
+      "text": "过拟合，就是把噪声也当成规律，一股脑全背下来。背得越死，新数据上错得越离谱。",
+      "audio": "audio/S15.wav",
+      "duration": 8.672
+    },
+    {
+      "id": "S16",
+      "scene": "concept-chart",
+      "text": "机器学习管这叫泛化能力差。泛化就是老拙那手本事：没见过的脸，也能画出神。训练集一百分，测试集不及格，中间那段就是过拟合。",
+      "audio": "audio/S16.wav",
+      "duration": 11.515
+    },
+    {
+      "id": "S17",
+      "scene": "cures",
+      "text": "怎么治？最直接，多喂不一样的脸，让噪声蒙混不过关，这叫数据增强。",
+      "audio": "audio/S17.wav",
+      "duration": 8.4
+    },
+    {
+      "id": "S18",
+      "scene": "cures",
+      "text": "再一招，别让模型记太细，逼它抓大放小，这叫正则化。",
+      "audio": "audio/S18.wav",
+      "duration": 5.453
+    },
+    {
+      "id": "S19",
+      "scene": "cures",
+      "text": "还有一招，早点收手，别把训练成绩刷到满分，练到该停就停，叫早停。",
+      "audio": "audio/S19.wav",
+      "duration": 7.769
+    },
+    {
+      "id": "S20",
+      "scene": "mapping",
+      "text": "沈摹临的一千张画像，是训练数据；疤、痣、霉斑，是噪声；颧骨和阴影，是特征；第一千零一张脸，是测试数据；沈摹拼脸失败，是过拟合；老拙抓神忘形，是学到了模式、会泛化。",
+      "audio": "audio/S20.wav",
+      "duration": 21.069
+    },
+    {
+      "id": "S21",
+      "scene": "ending",
+      "text": "这个病，人也会犯。只刷真题的学生，一到新考场就发懵。",
+      "audio": "audio/S21.wav",
+      "duration": 4.942
+    },
+    {
+      "id": "S22",
+      "scene": "ending",
+      "text": "训练自己和训练模型是一回事：得留一张没见过的脸，时不时考考自己，那才叫真学会了。",
+      "audio": "audio/S22.wav",
+      "duration": 6.505
+    }
+  ]
+}
